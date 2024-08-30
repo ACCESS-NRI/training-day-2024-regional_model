@@ -9,7 +9,11 @@ We value your feedback on this training, in-person or via the <a href="https://f
 
 Instructions on which NCI project you need to be part of and how to launch the <a href="https://are.nci.org.au" target="_blank">ARE</a> (Australian Research Environment) are provided at the beginning of each exercise:
 
-1. ACCESS Models:  
+1. Check basic setup
+a) [Exercise: Running Example Suite](https://opus.nci.org.au/display/DAE/Cylc+7+suite+run+example%3A++u-cq161)
+
+2. Running a high-resolution regional model using a two- level nest
+
    a) [Exercise: Running ACCESS in ARE](https://github.com/ACCESS-NRI/training-day-2024-regional_model/blob/main/access_rose_cylc/rose_cylc_example.md)  
    b) [Exercise: Working with an ACCESS suite](https://github.com/ACCESS-NRI/training-day-2024-regional_model/blob/main/access_rose_cylc/ex1_runlength.md)  
    c) [Exercise: How to modify suites](https://github.com/ACCESS-NRI/training-day-2024-regional_model/blob/main/access_rose_cylc/ex2_co2.md) <br>
