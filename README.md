@@ -21,6 +21,14 @@ a) [Exercise: Running Example Suite](https://opus.nci.org.au/display/DAE/Cylc+7+
    c) [Exercise: How to modify suites](https://github.com/ACCESS-NRI/training-day-2024-regional_model/blob/main/access_rose_cylc/ex2_co2.md) <br>
    d) [Exercise: Troubleshooting example](https://github.com/ACCESS-NRI/training-day-2024-regional_model/blob/main/access_rose_cylc/ex3_troubleshooting.md)
 
+3. Analyse the output data
+
+   a) [Exercise: List contents of FieldsFile] (https://github.com/ACCESS-NRI/training-day-2024-regional_model/blob/main/analyse_data/list_file_contents.md)
+   b) [Exercise: Simple plot of output using xarray] (https://github.com/ACCESS-NRI/training-day-2024-regional_model/blob/main/analyse_data/simple_plot.md)  
+
+
+
+
 Remember that you have to be part of the projects that are listed at the beginning of each exercise.
 
 Please <a href="https://my.nci.org.au/mancini/" target="_blank">join</a> them before the workshop - most importantly `nf33` - and list them in the storage instructions of your ARE session, as per exercise instructions.
