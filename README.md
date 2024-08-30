@@ -23,8 +23,8 @@ a) [Exercise: Running Example Suite](https://opus.nci.org.au/display/DAE/Cylc+7+
 
 3. Analyse the output data
 
-   a) [Exercise: List contents of FieldsFile] (https://github.com/ACCESS-NRI/training-day-2024-regional_model/blob/main/analyse_data/list_file_contents.md)
-   b) [Exercise: Simple plot of output using xarray] (https://github.com/ACCESS-NRI/training-day-2024-regional_model/blob/main/analyse_data/simple_plot.md)  
+   a) [Exercise: List contents of FieldsFile](https://github.com/ACCESS-NRI/training-day-2024-regional_model/blob/main/analyse_data/list_file_contents.md)
+   b) [Exercise: Simple plot of output using xarray](https://github.com/ACCESS-NRI/training-day-2024-regional_model/blob/main/analyse_data/simple_plot.md)  
 
 
 
