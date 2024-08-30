@@ -30,6 +30,12 @@ if Path(fname).exists():
 
 ```
 
+then run
+
+```
+python list_contents.py
+```
+
 <p align="center"><img src="../assets/analyse_data/file_contents.png" alt="drawing" width="80%"/></p>
 
 ## [Exercise 2:  Changing a model physics option](ex2_co2.md)
