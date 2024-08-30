@@ -1,26 +1,71 @@
-# ACCESS-NRI Workshop rose cylc examples
-<p>Guide for the rose cylc ACCESS-NRI workshop exercises.</p>
+# ACCESS-NRI Workshop regional model examples
+<p>Guide for the regional model ACCESS-NRI workshop exercises.</p>
 
+# Exercise 2:   Creating a simple plot of a variable
+Once you know the name of the variable of interest in a FieldsFile, it is fairly simple to read in that data into an Xarray variable.  Xarray can then be used to simply plot the variable.
 
-# Exercise 2:  Changing a model physics option
-This suite uses historical values of greenhouse gases. For an experiment we could turn this off and rerun with a greatly increased CO2 concentration (similar to the CMIP instantaneous 4xCO2 experiment).
-
-Turn this option off
-
-<p align="center"><img src="../assets/access_rose_cylc/co2_varying.png" alt="drawing" width="80%"/></p>
-
-Then in the GAS MMRs section increase the CO2 mixing ratio. Note this is a mass mixing ratio rather than the more familiar volume ratio. 4.3182e-4 is the CMIP6 PI control value, equivalent to 284 ppmv. Perhaps multiply by 4.
-
-<p align="center"><img src="../assets/access_rose_cylc/co2_mmr.png" alt="drawing" width="80%"/></p>
-
-Now rerun the suite. This will overwrite your previous output. However results can be compared to a saved copy of the output from the standard run in ` /g/data/access/nri_training/archive/cz168/`.
+If the python modules have not yet been loaded, load the necessary modules.
 
 ```
 module use /g/data/hh5/public/modules
 module load conda/analysis3
-cdo sub  /scratch/$PROJECT/$USER/archive/cz168/history/atm/netCDF/cz168a.pd19820101.nc /g/data/access/nri_training/archive/cz168/history/atm/netCDF/cz168a.pd19820101.nc diff.nc
-python /g/data/access/nri_training/simple_plot.py diff.nc fld_s02i206
 ```
-The upward LW radiation is immediately affected by the CO2 change.
 
-## [Exercise 3: Troubleshooting](ex3_troubleshooting.md)
+open a file called "simple_plot_MSLP.py"
+
+and insert the following python code into it.
+
+```
+#!/usr/bin/env python
+import xarray as xr
+import matplotlib.pyplot as plt
+import iris
+
+basedir="/scratch/nf33/<user>/cylc-run/u-dg768/share/cycle/20220227T0000Z/Lismore/d0198/RAL3P2/um/"
+data_fname=basedir+"umnsaa_pb012"
+mask_fname=basedir+"umnsaa_pa000"
+
+# Variable of interest
+var="air_pressure_at_sea_level"
+
+# Time-point of interest
+TM=300
+
+# Read in the data
+d = iris.load(data_fname,var)
+
+# Convert to an x-array object
+d=xr.DataArray.from_iris(d[0])
+
+# prepare commenting and plotting information
+times=d['time'].dt.strftime("%H:%M:%S %d/%m/%Y").data
+time_string=times[TM]
+long_name=d.standard_name
+cmap=plt.colormaps['gnuplot2_r']
+
+# Plot the data
+d[TM,:,:].plot.contourf(cmap=cmap,levels=100)
+
+# Overwrite the plot title
+plt.title(long_name+' '+time_string)
+
+var="land_binary_mask"
+d = iris.load(mask_fname,var)
+d=xr.DataArray.from_iris(d[0])
+lons=d['longitude'].data
+lats=d['latitude'].data
+plt.contour(lons,lats,d[:,:].data,levels=[0.5],colors=['k'])
+plt.show()
+
+```
+
+then run
+
+```
+python simple_plot_MSLP.py
+```
+
+The contents of the fieldsfile will then be printed out allowing you to see the available varibles.
+
+<p align="center"><img src="../assets/analyse_data/mslp_figure.png" alt="drawing" width="80%"/></p>
+
