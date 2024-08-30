@@ -35,13 +35,13 @@ TM=300
 d = iris.load(data_fname,var)
 
 # Convert to an x-array object
-d=xr.DataArray.from_iris(d[0])
+d = xr.DataArray.from_iris(d[0])
 
 # prepare commenting and plotting information
-times=d['time'].dt.strftime("%H:%M:%S %d/%m/%Y").data
-time_string=times[TM]
-long_name=d.standard_name
-cmap=plt.colormaps['gnuplot2_r']
+times = d['time'].dt.strftime("%H:%M:%S %d/%m/%Y").data
+time_string = times[TM]
+long_name = d.standard_name
+cmap = plt.colormaps['gnuplot2_r']
 
 # Plot the data
 d[TM,:,:].plot.contourf(cmap=cmap,levels=100)
@@ -49,11 +49,11 @@ d[TM,:,:].plot.contourf(cmap=cmap,levels=100)
 # Overwrite the plot title
 plt.title(long_name+' '+time_string)
 
-var="land_binary_mask"
+var = "land_binary_mask"
 d = iris.load(mask_fname,var)
-d=xr.DataArray.from_iris(d[0])
-lons=d['longitude'].data
-lats=d['latitude'].data
+d = xr.DataArray.from_iris(d[0])
+lons = d['longitude'].data
+lats = d['latitude'].data
 plt.contour(lons,lats,d[:,:].data,levels=[0.5],colors=['k'])
 plt.show()
 
