@@ -36,6 +36,8 @@ then run
 python list_contents.py
 ```
 
+The contents of the fieldsfile will then be printed out allowing you to see the available varibles.
+
 <p align="center"><img src="../assets/analyse_data/file_contents.png" alt="drawing" width="80%"/></p>
 
-## [Exercise 2:  Changing a model physics option](ex2_co2.md)
+## [Exercise 2:  Creating a simple plot of a variable](simple_plot.md)
