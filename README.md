@@ -10,6 +10,7 @@ We value your feedback on this training, in-person or via the <a href="https://f
 Instructions on which NCI project you need to be part of and how to launch the <a href="https://are.nci.org.au" target="_blank">ARE</a> (Australian Research Environment) are provided at the beginning of each exercise:
 
 1. Check basic setup
+
 a) [Exercise: Running Example Suite](https://opus.nci.org.au/display/DAE/Cylc+7+suite+run+example%3A++u-cq161)
 
 2. Running a high-resolution regional model using a two- level nest
