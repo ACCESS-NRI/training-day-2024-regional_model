@@ -1,4 +1,5 @@
-#  ACCESS-NRI Training Day 2 September 2024
+#  ACCESS-NRI Training Day 2 September 2024 
+#  Running a high-resolution regional model using a two-level nest
 
 This repository includes the material for the <a href="https://www.access-nri.org.au" target="_black">ACCESS-NRI</a> <a href="https://www.access-nri.org.au/event/access-training-day-2024/" target="_black">Training Day</a> on 2 September 2024.  
 You can find a general overview of the ACCESS-NRI documentation on the <a href="https://access-hive.org.au" target="_blank">ACCESS-Hive</a>.  
