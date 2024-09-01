@@ -20,10 +20,9 @@ We value your feedback on this training, in-person or via the <a href="https://f
       * zz93 ERA5 land
       * hh5  CLEX software & data
 
-       If you're not a member of one of these please contact a helper.
+      If you're not a member of one of these please contact a helper.
 
-   b) [ARE setup](https://github.com/ACCESS-NRI/training-day-2024-regional_model/blob/main/access_rose_cylc/are_setup.md)
- <br>
+   b) [ARE setup](https://github.com/ACCESS-NRI/training-day-2024-regional_model/blob/main/access_rose_cylc/are_setup.md)  <br>
    c) [Simple suite with NCI persistent session](https://github.com/ACCESS-NRI/training-day-2024-regional_model/blob/main/access_rose_cylc/rose_cylc_example.md)
 
 2. Running a high-resolution regional model using a two- level nest

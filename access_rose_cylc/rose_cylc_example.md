@@ -19,7 +19,7 @@ https://opus.nci.org.au/display/DAE/Persistent+Sessions+For+Cylc+Jobs
 persistent-sessions start cylc-test
 ```
 
-[Running Example Suite](https://opus.nci.org.au/display/DAE/Cylc+7+suite+run+example%3A++u-cq161)
+[NCI documentation on running the example suite](https://opus.nci.org.au/display/DAE/Cylc+7+suite+run+example%3A++u-cq161)
 
 This is a simple suite that runs a couple of short jobs to test connectivity
 
@@ -44,6 +44,7 @@ mkdir -p ~/roses
 cp -r /g/data/access/nri_training/u-cq161 ~/roses
 ```
 
+To run the suite
 ```
 cd ~/roses/u-cq161
 rose suite-run
@@ -59,7 +60,7 @@ This should only take a few minutes to complete. Note that tasks disappear from 
 The model output and log files can be checked directly on the file system. E.g.
 <p align="center"><img src="../assets/access_rose_cylc/suite_output_files.png" alt="drawing" width="80%"/></p>
 
-Note that for suites launched from ARE, the whole `cylc-run/SUITE` directory is on `/scratch`, not just the `work` and `share` subdirectories.
+Note that the whole `cylc-run/SUITE` directory is on `/scratch` and linked to `$HOME`.
 
 ## Model run directory
-Tasks run in a `work/CYCLE_TIME/TASK_NAME` subdirectory and by default input and output files will be there.
+Tasks run in a `work/CYCLE_TIME/TASK_NAME` subdirectory and by default input and output files will be there. Depending on suite design input and output data may also be in `share`.
