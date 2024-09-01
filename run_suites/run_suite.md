@@ -28,16 +28,27 @@ rosie co u-dg768
 ```
 This checks out a copies of the ancillary and nesting suites to `~/roses/u-dg767` and .`~/roses/u-dg768`
 
-In this tutorial we will not run the u-dg767 suite due to timing constraints, but we will view the suite together.
+In this tutorial we will not run the u-dg767 suite due to timing constraints, but lets view the suite together.
 
-We will run the nesting suite.  To run the nesting suite
+```
+cd ~/roses/u-dg767
+rose edit
+```
 
+We will run the nesting suite.  To view the nesting suite
+
+```
+cd ~/roses/u-dg768
+rose edit
+```
+
+To run the nesting suite do the following:
 ```
 cd ~/roses/u-dg768
 rose suite-run
 ```
 
-The suite will take about 2 hours to run +48 hours using 18 by 16 CPUs at a cost of roughly 2000SU
+The suite will take about 1 hour per +24 hours using 18 by 16 CPUs at a cost of roughly 1000SU
 
 ## Suite output
 The model output and log files can be checked directly on the file system. E.g.
