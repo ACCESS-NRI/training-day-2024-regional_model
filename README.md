@@ -27,11 +27,6 @@ We value your feedback on this training, in-person or via the <a href="https://f
 
 2. Running a high-resolution regional model using a two- level nest
 
-   a) [Exercise: Working with an ACCESS suite](https://github.com/ACCESS-NRI/training-day-2024-regional_model/blob/main/access_rose_cylc/ex1_runlength.md)
-   <br>
-   b) [Exercise: How to modify suites](https://github.com/ACCESS-NRI/training-day-2024-regional_model/blob/main/access_rose_cylc/ex2_co2.md) <br>
-   c) [Exercise: Troubleshooting example](https://github.com/ACCESS-NRI/training-day-2024-regional_model/blob/main/access_rose_cylc/ex3_troubleshooting.md)
-
 3. Analyse the output data
 
    a) [Exercise: List contents of FieldsFile](https://github.com/ACCESS-NRI/training-day-2024-regional_model/blob/main/analyse_data/list_file_contents.md) <br>
