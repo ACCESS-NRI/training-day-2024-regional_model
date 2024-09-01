@@ -27,7 +27,7 @@ We value your feedback on this training, in-person or via the <a href="https://f
 
 2. Running a high-resolution regional model using a two- level nest
 
-   c) [Checkout and run the relevant suites](https://github.com/ACCESS-NRI/training-day-2024-regional_model/blob/main/run_suites/run_suite.md)
+   a) [Checkout and run the relevant suites](https://github.com/ACCESS-NRI/training-day-2024-regional_model/blob/main/run_suites/run_suite.md)
 
 3. Analyse the output data
 
