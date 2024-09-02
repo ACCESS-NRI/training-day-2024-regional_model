@@ -2,10 +2,10 @@
 <p>Guide for the regional model ACCESS-NRI workshop exercises.</p>
 
 
-# Exercise 1:  List the contents of the FieldsFile
+# Exercise 1:  Open a FieldsFile with xconv
 The standard output for the Unified Model is in FieldsFile format.
 
-To list the contents of a FieldsFile file, do the following
+To open a FieldsFile file and inspect the contents visually, do the following
 
 
 ```
