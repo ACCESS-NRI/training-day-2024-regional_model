@@ -29,6 +29,16 @@ xconv umnsaa_pb000
 
 A window will pop-up displaying the contents of the fieldsfile.
 
-<p align="center"><img src="../assets/analyse_data/xconv_example.png" alt="drawing" width="80%"/></p>
+Double-click on "PRESSURE AT MEAN SEA LEVEL"
+
+Click on the "t" (time) dimension.
+
+Double-click on a single time.
+
+Click on Apply.
+
+Click on Plot Data.
+
+A plot will appear on the screen showing the contents of the data selected.
 
 ## [Exercise 2:  List contents of a fields file](list_file_contents.md)
