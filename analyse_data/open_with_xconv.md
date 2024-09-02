@@ -13,7 +13,7 @@ module use ~access/modules
 module load xconv
 ```
 
-go to an output directory of interest and list the files
+go to an output directory and list the files
 
 ```
 cd /scratch/nf33/<user>/cylc-run/u-dg768/share/cycle/20220226T0000Z/Lismore/d0198/RAL3P2/um/
