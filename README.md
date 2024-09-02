@@ -31,5 +31,6 @@ We value your feedback on this training, in-person or via the <a href="https://f
 
 3. Analyse the output data
 
-   a) [Exercise: List contents of FieldsFile](https://github.com/ACCESS-NRI/training-day-2024-regional_model/blob/main/analyse_data/list_file_contents.md) <br>
-   b) [Exercise: Simple plot of output using xarray](https://github.com/ACCESS-NRI/training-day-2024-regional_model/blob/main/analyse_data/simple_plot.md)
+   a) [Exercise: Open FieldsFile with xconv](https://github.com/ACCESS-NRI/training-day-2024-regional_model/blob/main/analyse_data/open_with_xconv.md) <br>
+   b) [Exercise: List contents of FieldsFile](https://github.com/ACCESS-NRI/training-day-2024-regional_model/blob/main/analyse_data/list_file_contents.md) <br>
+   c) [Exercise: Simple plot of output using xarray](https://github.com/ACCESS-NRI/training-day-2024-regional_model/blob/main/analyse_data/simple_plot.md)

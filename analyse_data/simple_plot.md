@@ -1,7 +1,7 @@
 # ACCESS-NRI Workshop regional model examples
 <p>Guide for the regional model ACCESS-NRI workshop exercises.</p>
 
-# Exercise 2:   Creating a simple plot of a variable
+# Exercise 3:   Creating a simple plot of a variable
 Once you know the name of the variable of interest in a FieldsFile, it is fairly simple to read in that data into an Xarray variable.  Xarray can then be used to simply plot the variable.
 
 If the python modules have not yet been loaded, load the necessary modules.

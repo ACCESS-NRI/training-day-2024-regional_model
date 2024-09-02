@@ -2,7 +2,7 @@
 <p>Guide for the regional model ACCESS-NRI workshop exercises.</p>
 
 
-# Exercise 1:  List the contents of the FieldsFile
+# Exercise 2:  List the contents of the FieldsFile
 The standard output for the Unified Model is in FieldsFile format.
 
 To list the contents of a FieldsFile file, do the following
@@ -40,4 +40,4 @@ The contents of the fieldsfile will then be printed out allowing you to see the 
 
 <p align="center"><img src="../assets/analyse_data/file_contents.png" alt="drawing" width="80%"/></p>
 
-## [Exercise 2:  Creating a simple plot of a variable](simple_plot.md)
+## [Exercise 3:  Creating a simple plot of a variable](simple_plot.md)

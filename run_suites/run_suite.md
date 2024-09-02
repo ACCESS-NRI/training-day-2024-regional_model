@@ -56,4 +56,4 @@ The model output and log files can be checked directly on the file system. E.g.
 Note that the whole `cylc-run/SUITE` directory is on `/scratch` and linked to `$HOME`.
 
 ## Model run directory
-Tasks run in a `/scratch/PROJECT/USER/cycle-run/SUITE/share/cycle/CYCLE_TIME/` subdirectory and by default input and output files will be there. Depending on suite design input and output data may also be in `share`.
+Tasks run in a `/scratch/PROJECT/USER/cycle-run/SUITE/share/cycle/CYCLE_TIME/` subdirectory and by default input and output files will be there. 
