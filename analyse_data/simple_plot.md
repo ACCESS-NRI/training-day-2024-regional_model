@@ -65,7 +65,7 @@ then run
 python simple_plot_MSLP.py
 ```
 
-The contents of the fieldsfile will then be printed out allowing you to see the available varibles.
+The following plot will then pop-up on your screen.
 
 <p align="center"><img src="../assets/analyse_data/mslp_figure.png" alt="drawing" width="80%"/></p>
 
